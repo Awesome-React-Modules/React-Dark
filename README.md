@@ -2,10 +2,9 @@
 # React Dark
 
   
-![alt text](https://raw.githubusercontent.com/plxity/React-Dark-Theme/HEAD/Capture.PNG)
+[<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
 
-
-![alt text](https://raw.githubusercontent.com/plxity/React-Dark-Theme/HEAD/Capture1.PNG)
+[<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
 
 
 ## Important 
