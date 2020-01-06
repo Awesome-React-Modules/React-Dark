@@ -2,16 +2,14 @@
 # React Dark
 
   
+![alt text](https://raw.githubusercontent.com/plxity/React-Dark-Theme/HEAD/Capture.PNG)
 
-[<img src="./light.png" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
 
-  
-
-[<img src="./dark.png" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+![alt text](https://raw.githubusercontent.com/plxity/React-Dark-Theme/HEAD/Capture1.PNG)
 
 
 ## Important 
-### This Module will remember your last theme setted and will save it for future. So when a user starts up an application again it will set the last applied theme automatically. 
+### This Module will remember your last theme set and will save it for the future. So when a user starts up an application again it will set the last applied theme automatically. 
 
 
 ## Installation
