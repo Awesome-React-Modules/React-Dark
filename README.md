@@ -2,9 +2,9 @@
 # React Dark
 
   
-[<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
+[<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
 
-[<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Pincode)
+[<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
 
 
 ## Important 
