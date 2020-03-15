@@ -88,6 +88,10 @@ export  default  class  Example  extends  Component {
 export  default  Example;
 
 ```  
+### Playground
+
+Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/pen/zYGWyoY)
+
 ### Development and Testing
 
 1. Set-up the React-Dark module by dowloading its dependencies, using `npm install` command.	
