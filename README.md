@@ -11,15 +11,19 @@
 ### This Module will remember your last theme set and will save it for the future. So when a user starts up an application again it will set the last applied theme automatically. 
 
 
-## Installation
+## Prerequisites
+* NodeJS (check for it's installation on terminal using npm -v)
 
+
+## Steps to set the environment
+1. Clone the repository
+```bash
+ git clone https://github.com/Awesome-React-Modules/React-Dark.git
+ ```
+2. Install Dependencies
 ```
-
 npm install --save react-dark
-
 ```
-
-  
 
 ## Usage
 
@@ -92,6 +96,29 @@ export  default  Example;
 
 Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/pen/zYGWyoY)
 
+## Example
+
+### JS
+
+```js
+import React, { Component } from 'react';
+import Darktheme from "react-dark";
+
+export default class Example extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Darktheme/>
+	//This will set the Background color to dark
+      </div>    
+      )
+  }
+}
+
+export default Example;
+```
+
+
 ### Development and Testing
 
 1. Set-up the React-Dark module by dowloading its dependencies, using `npm install` command.	
@@ -103,5 +130,23 @@ Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/
 7. Congratulations! You have set-up the test server for react-dark.	
 Now just run `npm start` from `test-server` directory to launch the test-server.	
 8. You don't need to stop this server, the changes made in the module will be reflected automatically each time you build them using `npm run build`	
+
+## Contributing
+Please read [CONTRIBUTING.md]() for information on how to contribute to React-Pincode.
+
+## Development Guidelines
+1. Write clean and readable code with proper formatting.
+2. Create a branch and push your code in the branch.
+3. Please follow PR template to create PR.
+4. Please read our [Code of Conduct]() .
+
+## Owner
+[Apoorv Taneja](https://github.com/plxity)
+
+## Mentor
+[Apoorv Taneja](https://github.com/plxity)
+[Aditya Srivastava](https://github.com/AdityaSrivast)
+
+Feel Free to ask your queries!!
 
 Happy Coding :rocket: :rocket:	
