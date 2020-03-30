@@ -24,7 +24,6 @@
 ```
 npm install --save react-dark
 ```
-
 ## Usage
 
   Add dark mode feature to your React App in just three simple steps. 
