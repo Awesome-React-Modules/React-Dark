@@ -34,3 +34,29 @@ We want to make contributing to this project as easy and transparent as possible
     git pull upstream master
     ```
 *  Before creating an issue, discuss it withe project mentors in the [Slack Channel](https://gssoc20.slack.com)
+* Make changes in the source code after getting yourself assigned by the mentors.
+* Commit your changes.
+    ```
+    git add .
+    git commit -m "<your_commit_message>"
+    ```
+* Push your local branch to the remote repository.
+    ```
+    git push -u origin <your_branch_name>
+    ```
+* Create a Pull Request!
+
+Mentors will review your PR and merge if there are no conflicts found!
+
+***
+You will get the following points on the basis of difficulty of the project. 
+| Type        | Points          
+| ----------- |:------:
+|  Beginner     | 2 
+|  Easy | 4      
+|  Medium | 6
+| Hard| 10
+
+
+
+## Keep Contributing!!  👋 
