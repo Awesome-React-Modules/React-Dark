@@ -48,15 +48,4 @@ We want to make contributing to this project as easy and transparent as possible
 
 Mentors will review your PR and merge if there are no conflicts found!
 
-***
-You will get the following points on the basis of difficulty of the project. 
-| Type        | Points          
-| ----------- |:------:
-|  Beginner     | 2 
-|  Easy | 4      
-|  Medium | 6
-| Hard| 10
-
-
-
 ## Keep Contributing!!  👋 
