@@ -12,7 +12,7 @@ class Darktheme extends React.Component {
         document.documentElement.setAttribute("data-theme", presentTheme);
         }
       else{
-        document.documentElement.setAttribute("data-theme", "normal");
+        document.documentElement.setAttribute("data-theme", "dark");
       }
       }
       
