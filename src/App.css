@@ -19,19 +19,31 @@ select {
 [data-theme="dark"] {
 	--bg-color: #1b262c;
 	--heading-color: #fff;
+	  transition:
+		background-color 1s ease-in-out,
+		color 1s ease-in-out;
 }
 
 [data-theme ="darkGrey"]{
   --bg-color: #222831;
 	--heading-color: #fff;
+	  transition:
+		background-color 1s ease-in-out,
+		color 1s ease-in-out;
 }
 
 [data-theme ="darkBlue"]{
   --bg-color: #17223B;
 	--heading-color: #fff;
+	  transition:
+		background-color 1s ease-in-out,
+		color 1s ease-in-out;
 }
 
 :root {
 	--bg-color: #fff;
 	--heading-color: #000;
+	  transition:
+		background-color 1s ease-in-out,
+		color 1s ease-in-out;
 }
