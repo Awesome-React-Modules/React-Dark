@@ -1,10 +1,9 @@
 
 # React Dark
 
-  
-[<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+![Light Mode](https://github.com/aditianshu/React-Dark/blob/multiDark/Screenshot%20(128).png)
 
-[<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+![Dark Mode](https://github.com/aditianshu/React-Dark/blob/multiDark/Screenshot%20(127).png)
 
 
 ## Important 
@@ -43,7 +42,7 @@ and use it on any class. For example :-
 }
 ```
 
-2) Now decalre the variables which you would like to change when it is changed to dark mode.
+2) Now decalre the variables which you would like to change when it is changed to dark mode, it gives three custom dark themes. 
 ```
 
 [data-theme="dark"] {
@@ -90,7 +89,7 @@ export  default  Example;
 ```  
 ### Playground
 
-Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/pen/zYGWyoY)
+Find Codepen Implementation of the module [here](https://codepen.io/aditianshu/pen/OJVavKd?editors=0110)
 
 ### Development and Testing
 
