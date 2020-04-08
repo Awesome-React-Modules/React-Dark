@@ -137,7 +137,7 @@ Please read [CONTRIBUTING.md]() for information on how to contribute to React-Pi
 1. Write clean and readable code with proper formatting.
 2. Create a branch and push your code in the branch.
 3. Please follow PR template to create PR.
-4. Please read our [Code of Conduct]() .
+4. Please read our [Code of Conduct](https://github.com/Awesome-React-Modules/React-Dark/blob/master/CODE_OF_CONDUCT.md) .
 
 ## Owner
 [Apoorv Taneja](https://github.com/plxity)
