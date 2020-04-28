@@ -131,7 +131,7 @@ Now just run `npm start` from `test-server` directory to launch the test-server.
 8. You don't need to stop this server, the changes made in the module will be reflected automatically each time you build them using `npm run build`	
 
 ## Contributing
-Please read [CONTRIBUTING.md]() for information on how to contribute to React-Pincode.
+Please read [CONTRIBUTING.md](https://github.com/Awesome-React-Modules/React-Dark/blob/master/CONTRIBUTING.md) for information on how to contribute to React-Pincode.
 
 ## Development Guidelines
 1. Write clean and readable code with proper formatting.
