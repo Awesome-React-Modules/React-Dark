@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -13,15 +14,33 @@ code {
 }
 :root {
 	--bg-color: #fff;
-	--heading-color: #000;
+	/*--heading-color: #000;*/
+  --heading-color: white;
 }
 .main_heading{
 	color: var(--heading-color)
 }
-[data-theme="dark"] {
-	--bg-color: #000;
+/*[data-theme="dark"] {
+  --bg-color: black;
 	--heading-color: #fff;
 }
+[data-theme="blue"] {
+  --bg-color: blue;
+  --heading-color: #fff;
+}
+[data-theme="red"] {
+  --bg-color: red;
+  --heading-color: #fff;
+}
+[data-theme="yellow"] {
+  --bg-color: yellow;
+  --heading-color: #fff;
+}
+[data-theme="green"] {
+  --bg-color: green;
+  --heading-color: #fff;
+}*/
+
 
 html {
   background-color: var(--bg-color);

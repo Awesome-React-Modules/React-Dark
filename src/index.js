@@ -14,8 +14,8 @@ class Darktheme extends Component {
 
   switchTheme(e) {
     if (e.target.checked) {
-      document.documentElement.setAttribute("data-theme", "dark");
-      localStorage.setItem("theme", "dark");
+      document.documentElement.setAttribute("data-theme", "blue");
+      localStorage.setItem("theme", "blue");
     } else {
       document.documentElement.setAttribute("data-theme", "normal");
       localStorage.setItem("theme", "normal");
@@ -24,11 +24,12 @@ class Darktheme extends Component {
 
   onChange(e) {
     this.switchTheme(e);
+    console.log('hello')
   }
 
   render() {
     return (
-      <div className="App">
+      <div className="App"  >
         <label className="switch">
           <input type="checkbox" onChange={e => this.onChange(e)} />
           <span className="slider round"></span>
