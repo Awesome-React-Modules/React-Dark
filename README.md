@@ -1,10 +1,21 @@
 
 # React Dark
 
-  
-[<img src="./Capture.PNG" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+React Dark is a published NPM module that can be integrated inside any ReactJS application. It can be used to integrate dark theme in a few easy steps. It provides you a functionality to customize dark themes as per the need. It also comes with a toggler to switch themes easily. 
 
-[<img src="./Capture1.PNG" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+<div align="center">
+    <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" >
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" >
+    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" >
+</div>
+  
+
+#### Snippet of the working application is displayed below.
+
+* ###### Light Theme
+[<img src="./light_theme.png" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+* ###### Dark Theme
+[<img src="./dark_theme.png" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
 
 
 ## Important 
@@ -12,18 +23,9 @@
 
 
 ## Prerequisites
-* NodeJS (check for it's installation on terminal using npm -v)
+* NodeJS (check for it's installation on terminal using ```npm -v```)
 
 
-## Steps to set the environment
-1. Clone the repository
-```bash
- git clone https://github.com/Awesome-React-Modules/React-Dark.git
- ```
-2. Install Dependencies
-```
-npm install --save react-dark
-```
 ## Usage
 
   Add dark mode feature to your React App in just three simple steps. 
@@ -31,6 +33,7 @@ npm install --save react-dark
 ###  Open your main CSS file and follow the steps mentioned.
   
   1) Declare root variables (as per your choice). This will be displayed when dark mode is not enabled.
+
  ### Note: Use these variables only for specifying values to your CSS properties.
  For example :-
 ```
@@ -59,7 +62,9 @@ and use it on any class. For example :-
 
 
 ## Working
-
+```js
+npm install --save react-dark
+```
   
 
 ```js
@@ -73,31 +78,6 @@ import  Darktheme  from  "react-dark";
 ### JS
 
   
-
-```js
-
-import  React, { Component } from  'react';
-import  Darktheme  from  "react-dark";
-
-export  default  class  Example  extends  Component {
-	render() {
-		return (
-			<div>
-				<Darktheme  />
-			</div>
-		)
-	}
-}
-export  default  Example;
-
-```  
-### Playground
-
-Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/pen/zYGWyoY)
-
-## Example
-
-### JS
 
 ```js
 import React, { Component } from 'react';
@@ -113,9 +93,12 @@ export default class Example extends Component {
       )
   }
 }
-
 export default Example;
 ```
+
+### Playground
+
+Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/pen/zYGWyoY)
 
 
 ### Development and Testing
@@ -140,12 +123,6 @@ Please read [CONTRIBUTING.md]() for information on how to contribute to React-Pi
 4. Please read our [Code of Conduct](https://github.com/Awesome-React-Modules/React-Dark/blob/master/CODE_OF_CONDUCT.md) .
 
 ## Owner
-[Apoorv Taneja](https://github.com/plxity)
-
-## Mentor
-[Apoorv Taneja](https://github.com/plxity)
-[Aditya Srivastava](https://github.com/AdityaSrivast)
-
-Feel Free to ask your queries!!
+[Apoorv Taneja](https://github.com/plxity) <img src="https://img.shields.io/twitter/follow/apoorv_taneja?label=Follow&style=social" />
 
 Happy Coding :rocket: :rocket:	
