@@ -10,15 +10,9 @@
 ### This Module will remember your last theme set and will save it for the future. So when a user starts up an application again it will set the last applied theme automatically. 
 
 
-## Installation
+## Prerequisites
+* NodeJS (check for it's installation on terminal using ```npm -v```)
 
-```
-
-npm install --save react-dark
-
-```
-
-  
 
 ## Usage
 
@@ -27,6 +21,7 @@ npm install --save react-dark
 ###  Open your main CSS file and follow the steps mentioned.
   
   1) Declare root variables (as per your choice). This will be displayed when dark mode is not enabled.
+
  ### Note: Use these variables only for specifying values to your CSS properties.
  For example :-
 ```
@@ -55,7 +50,9 @@ and use it on any class. For example :-
 
 
 ## Working
-
+```js
+npm install --save react-dark
+```
   
 
 ```js
@@ -71,25 +68,26 @@ import  Darktheme  from  "react-dark";
   
 
 ```js
+import React, { Component } from 'react';
+import Darktheme from "react-dark";
 
-import  React, { Component } from  'react';
-import  Darktheme  from  "react-dark";
-
-export  default  class  Example  extends  Component {
-	render() {
-		return (
-			<div>
-				<Darktheme  />
-			</div>
-		)
-	}
+export default class Example extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Darktheme/>
+	//This will set the Background color to dark
+      </div>    
+      )
+  }
 }
-export  default  Example;
+export default Example;
+```
 
-```  
 ### Playground
 
 Find Codepen Implementation of the module [here](https://codepen.io/aditianshu/pen/OJVavKd?editors=0110)
+
 
 ### Development and Testing
 
@@ -102,5 +100,17 @@ Find Codepen Implementation of the module [here](https://codepen.io/aditianshu/p
 7. Congratulations! You have set-up the test server for react-dark.	
 Now just run `npm start` from `test-server` directory to launch the test-server.	
 8. You don't need to stop this server, the changes made in the module will be reflected automatically each time you build them using `npm run build`	
+
+## Contributing
+Please read [CONTRIBUTING.md]() for information on how to contribute to React-Pincode.
+
+## Development Guidelines
+1. Write clean and readable code with proper formatting.
+2. Create a branch and push your code in the branch.
+3. Please follow PR template to create PR.
+4. Please read our [Code of Conduct](https://github.com/Awesome-React-Modules/React-Dark/blob/master/CODE_OF_CONDUCT.md) .
+
+## Owner
+[Apoorv Taneja](https://github.com/plxity) <img src="https://img.shields.io/twitter/follow/apoorv_taneja?label=Follow&style=social" />
 
 Happy Coding :rocket: :rocket:	
