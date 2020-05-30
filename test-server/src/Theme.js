@@ -31,11 +31,11 @@ class Theme extends Component {
   render() {
     return (
       <div className="App"  >
-      <form action="/action_page.php" onChange = {(e) => this.submitbackground(e)} >
+      <form onChange = {(e) => this.submitbackground(e)} >
       <label for="favcolor">Select your BACKGROUND color:</label>
       <input type="color" id="favcolor" name="favcolor" value="#ff0000"/><br/><br/>
       </form>
-      <form action="/action_page.php" onChange = {(e) => this.submitfont(e)}>
+      <form onChange = {(e) => this.submitfont(e)}>
       <label for="favcolor">Select your FONT color:</label>
       <input type="color" id="favcolor" name="favcolor" value="#ff0000"/><br/><br/>
       </form>
@@ -54,4 +54,4 @@ class Theme extends Component {
   }
 }
 export default Theme;
-// ff8633
+
