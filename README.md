@@ -1,21 +1,9 @@
 
 # React Dark
 
-React Dark is a published NPM module that can be integrated inside any ReactJS application. It can be used to integrate dark theme in a few easy steps. It provides you a functionality to customize dark themes as per the need. It also comes with a toggler to switch themes easily. 
+![Light Mode](https://github.com/aditianshu/React-Dark/blob/multiDark/Screenshot%20(128).png)
 
-<div align="center">
-    <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" >
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" >
-    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" >
-</div>
-  
-
-#### Snippet of the working application is displayed below.
-
-* ###### Light Theme
-[<img src="./light_theme.png" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
-* ###### Dark Theme
-[<img src="./dark_theme.png" style="width: 100%;" />](https://github.com/plxity/React-Dark-Theme)
+![Dark Mode](https://github.com/aditianshu/React-Dark/blob/multiDark/Screenshot%20(127).png)
 
 
 ## Important 
@@ -49,7 +37,7 @@ and use it on any class. For example :-
 }
 ```
 
-2) Now decalre the variables which you would like to change when it is changed to dark mode.
+2) Now decalre the variables which you would like to change when it is changed to dark mode, it gives three custom dark themes. 
 ```
 
 [data-theme="dark"] {
@@ -98,7 +86,7 @@ export default Example;
 
 ### Playground
 
-Find Codepen Implementation of the module [here](https://codepen.io/kuljeet-123/pen/zYGWyoY)
+Find Codepen Implementation of the module [here](https://codepen.io/aditianshu/pen/OJVavKd?editors=0110)
 
 
 ### Development and Testing
