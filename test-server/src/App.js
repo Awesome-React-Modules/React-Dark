@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Darktheme from 'react-dark';
+import Theme from './Theme.js'
 
 class App extends Component {
   state = {
@@ -18,8 +18,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Darktheme/>
+      <div className="App" >
+       <Theme/>
         <h1>Hello Developer!</h1>
         <h3>This is the test server for React-Dark module</h3>
         <p>Click the switch above to toggle dark mode!!</p>
