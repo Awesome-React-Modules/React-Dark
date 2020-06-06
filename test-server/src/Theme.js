@@ -40,15 +40,6 @@ class Theme extends Component {
       <input type="color" id="favcolor" name="favcolor" value="#ff0000"/><br/><br/>
       </form>
       <label for = 'background'>Choose background Color </label>
-      <select id = 'background'>
-      <option onClick = {() => this.onChange('black')} >BLACK</option>
-      <option onClick = {() => this.onChange('blue')} >BLUE</option>
-      <option onClick = {() => this.onChange('red')} >RED</option>
-      <option onClick = {() => this.onChange('yellow')} >YELLOW</option>
-      <option onClick = {() => this.onChange('white')} >WHITE</option>
-      <option onClick = {() => this.onChange('green')} >GREEN</option>
-      <option onClick = {() => this.onChange('orange')} >ORANGE</option>
-      </select>
       </div>
     );
   }
